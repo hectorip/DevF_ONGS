@@ -13,8 +13,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  // padding-top: 20px;
+  // padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -27,7 +27,8 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  // border-bottom: 1px solid #e5e5e5;
+  margin-top: 40px;
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -35,6 +36,17 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+  }
+  ul 
+    li a {
+      font-size: 16px;
+      color: white;
+      border: 1px solid;
+      width: 150px;
+      text-align: center;
+    }
+  img {
+    width: 90px;
   }
 }
 
@@ -66,11 +78,43 @@ body {
     margin-top: 28px;
   }
 }
+.cont {
+  width: 100%;
+  height: 762px;
+}
+.section1 {
+  background-image: url("../images/img_1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.section2 {
+  background-image: url("../images/img_2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.section3 {
+  background-image: url("../images/img_3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.section4 {
+  background-color: #1797a5;
+}
+.left-side {
+  height: 100%;
 
+  img {
+    width: 100%;
+    margin-top: 380px;
+  }
+}
+.right-side {
+  height: 100%;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 960px;
   }
 
   /* Remove the padding we set earlier */
